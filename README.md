@@ -1,6 +1,6 @@
 # This repository contains the code of a Tfs build task that allows you to create a [Chocolatey](https://chocolatey.org) package (*.nupkg*) and publish it to a repository.
 
-It is available on the Visual Studio Team Services marketplace : http://tfs.cdbdx.biz:8080/tfs/_gallery/items?itemName=CdiscountAlm.vsts-chocolateypackandpush-tasks
+It is available on the Visual Studio Team Services marketplace : https://marketplace.visualstudio.com/items?itemName=CdiscountAlm.vsts-chocolateypackandpush-tasks
 
 #To work on this extension :
 ## Using Visual Studio code
