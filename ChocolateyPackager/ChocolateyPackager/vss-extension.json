@@ -1,0 +1,62 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-chocolateypackandpush-tasks",
+    "version": "1.1.3",
+    "name": "Chocolatey Pack and Push",
+    "description": "Create a Chocolatey package and publish it.",
+    "publisher": "CdiscountAlm",
+    "icons": {
+        "default": "img/logo.png"
+    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "galleryFlags": [
+        "Public"
+    ],
+    "tags": [
+        "chocolatey",
+        "choco",
+        "pack",
+        "push",
+        "package",
+        "publish",
+        "nuspec",
+        "nupkg"
+    ],
+    "branding": {
+        "color": "rgb(220, 235, 252)",
+        "theme": "light"
+    },
+    "files": [
+        {
+            "path": "Tasks/ChocolateyPackAndPushTask"
+        }
+    ],
+    "categories": [
+        "Build and release"
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/Cdiscount/vsts-buildtask-ChocolateyPackager"
+    },
+    "contributions": [
+        {
+            "id": "vsts-chocolateypackandpush-task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "type": "ms.vss-distributed-task.task",
+            "properties": {
+                "name": "Tasks/ChocolateyPackAndPushTask"
+            }
+        }
+    ]
+}
